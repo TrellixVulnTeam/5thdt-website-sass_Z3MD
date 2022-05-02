@@ -1,0 +1,30 @@
+{
+  "name": "5thdt-website-sass",
+  "version": "1.0.0",
+  "description": "5TH Dimension Technologies was established with a focused approach to extend technical and creative intelligence to enterprises. Our company with a collective experience of 27 years was founded on the ability to deliver Quality Services where success and growth will be measured in terms of Customer Satisfaction, Quality Centric Approach, Technology Leadership and Growth.",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "node-sass sass/main.scss assets/css/styles.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver compile:css watch:css",
+    "compile:scss": "node-sass sass/main.scss assets/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saisashreek5thdt/5thdt-website-sass.git"
+  },
+  "keywords": [],
+  "author": "5THDT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saisashreek5thdt/5thdt-website-sass/issues"
+  },
+  "homepage": "https://github.com/saisashreek5thdt/5thdt-website-sass#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.6",
+    "concat": "^1.0.3",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^9.1.0"
+  }
+}

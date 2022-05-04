@@ -6,7 +6,7 @@
   "scripts": {
     "watch:scss": "node-sass sass/main.scss assets/css/styles.css -w",
     "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver compile:css watch:css",
+    "start": "npm-run-all --parallel devserver compile:scss watch:scss",
     "compile:scss": "node-sass sass/main.scss assets/css/styles.css"
   },
   "repository": {

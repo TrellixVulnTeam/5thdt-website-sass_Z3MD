@@ -36,11 +36,27 @@ footer {
   padding: 0 2rem 0;
 }
 
-.paragraph {
+.tertiary-heading {
   font-family: inherit !important;
   color: $neon-color;
   font-size: 4.2rem;
   font-weight: 300;
   margin-top: 3rem;
   padding: 0 2rem 0;
+}
+
+.paragraph {
+  font-family: inherit !important;
+  color: $black-color;
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-top: 3rem;
+  padding: 0 2rem 0;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.paragraph span {
+  color: $neon-color;
+  font-weight: 600;
 }

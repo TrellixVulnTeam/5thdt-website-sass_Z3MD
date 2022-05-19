@@ -1,0 +1,123 @@
+.header {
+  height: 85vh;
+  background-image: url(../images/bg/slider-bg.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  &__menu-box {
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-5rem, -50%);
+    cursor: pointer;
+  }
+
+  &__menu {
+    height: 5rem;
+  }
+
+  &__imgvid-box {
+    position: relative;
+  }
+
+  &__img-box {
+    position: absolute;
+    top: 10rem;
+    left: -39rem;
+  }
+
+  &-image {
+    height: 62rem;
+  }
+
+  &__vid-box {
+    position: absolute;
+    top: 10rem;
+    left: 42rem;
+  }
+
+  &-video {
+    height: 62rem;
+  }
+
+  &__nav-box {
+    position: relative;
+  }
+
+  &__nav-list {
+    position: absolute;
+    top: 72rem;
+    left: -38rem;
+    list-style: none;
+    text-align: center;
+  }
+
+  &__nav-item {
+    margin: 1rem;
+    float: left;
+  }
+
+  &__nav-link {
+    &:link,
+    &:visited {
+      display: inline-block;
+      font-size: 2rem;
+      font-weight: 300;
+      padding: 1rem 2.5rem;
+      color: $color-white;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-white;
+    }
+
+    &:focus {
+      text-decoration: none;
+      border-style: none;
+    }
+  }
+
+  &__nav-box-1 {
+    position: relative;
+  }
+
+  &__nav-list-1 {
+    position: absolute;
+    top: 72rem;
+    right: -95rem;
+    list-style: none;
+    text-align: center;
+  }
+
+  &__nav-item-1 {
+    margin: 1rem;
+    float: right;
+  }
+
+  &__nav-link-1 {
+    &:link,
+    &:visited {
+      display: inline-block;
+      font-size: 2rem;
+      font-weight: 300;
+      padding: 1rem 2.5rem;
+      color: $color-white;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-white;
+    }
+
+    &:focus {
+      text-decoration: none;
+      border-style: none;
+    }
+  }
+}

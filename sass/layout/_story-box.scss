@@ -1,0 +1,14 @@
+.story {
+  &__text-box {
+    position: relative;
+  }
+
+  &__text-para {
+    position: absolute;
+    top: -10rem;
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+}

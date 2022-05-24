@@ -1,0 +1,42 @@
+.footer {
+  margin-top: 15rem;
+  position: relative;
+  background-image: url(../images/bg/footer_bg-1.png);
+  background-position: 100%;
+  background-size: cover;
+
+  &:hover {
+    background-image: url(../images/bg/footer_bg-2.png);
+    background-size: cover;
+  }
+
+  &__list {
+    list-style: none;
+    width: 100%;
+  }
+
+  &__item {
+    text-decoration: none;
+    &:not(:last-child) {
+      margin-bottom: 1.4rem;
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: $neon-color;
+      font-size: 2.8rem;
+      font-weight: 500;
+    }
+
+    &:hover,
+    &:active {
+      text-decoration: none;
+      color: $neon-color;
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+  }
+}

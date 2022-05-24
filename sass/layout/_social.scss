@@ -1,0 +1,38 @@
+.social {
+
+    &__list {
+        position: absolute;
+        top: 45rem;
+        left: 72rem !important;
+        text-align: center;
+    }
+
+    &__item {
+        text-align: center;
+        list-style: none;
+        float: left;
+        top: 5rem;
+        padding: 0 4px;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            text-decoration: none;
+            color: $black-color;
+            font-size: 2.5rem;
+        }
+
+        &:hover,
+        &:active {
+            text-decoration: none;
+            color: $black-color;
+        }
+    }
+
+    &__link img {
+        width: 42%;
+        height: 42%;
+    }
+
+}

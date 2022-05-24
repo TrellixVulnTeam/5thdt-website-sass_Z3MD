@@ -18,6 +18,14 @@
   margin-bottom: 10rem;
 }
 
+.u-margin-top-small {
+  margin-top: 3rem;
+}
+
+.u-margin-top-medium {
+  margin-top: 6rem;
+}
+
 .u-margin-top-big {
   margin-top: 8rem;
 }
@@ -37,4 +45,21 @@
 
 .color-black {
   color: $black-color;
+}
+
+// TEXT
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-cap {
+  text-transform: capitalize;
+}
+
+.text-low {
+  text-transform: lowercase;
+}
+
+.text-none {
+  text-transform: none;
 }
